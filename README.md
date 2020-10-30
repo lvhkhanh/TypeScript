@@ -29,3 +29,8 @@
 ## Links
 ### https://mariusschulz.com/blog/dynamic-import-expressions-in-typescript
 ### https://en.wikipedia.org/wiki/TypeScript
+## Notes
+```
+let name; // type: any
+const months: number; // type: number
+```
