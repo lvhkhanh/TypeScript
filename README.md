@@ -33,4 +33,19 @@
 ```
 let name; // type: any
 const months: number; // type: number
+let profile: [string, number] = ["Hello", 42] // type: tuple
+let newProfile = profile.concat(["!"]) // type: []
+enum Gender {
+  Male = 'Male',
+  Female = 'Female'
+}
+enum YesNo {
+  Yes = 1,
+  No = 0
+}
+type Person {
+  name: string,
+  age: number
+}
+type myFunc = (n: number) => n*n;
 ```
